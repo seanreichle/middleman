@@ -25,13 +25,13 @@ Gem::Specification.new do |s|
 ********************************************************************************
 
   Welcome to Middleman 2.0
-  
+
   In addition to many new features, some backwards-incompatible
   changes have been made to the structure of Middleman sites.
-  
+
   Before running you old, v1.x project on Middleman 2.0,
   review the Migration guide:
-  
+
   http://middlemanapp.com/guides/migrating
 
 ********************************************************************************
@@ -48,17 +48,17 @@ eos
   s.add_dependency("uglifier", ["~> 1.0.0"])
   s.add_dependency("slim", ["~> 1.0.2"])
   s.add_dependency("haml", ["~> 3.1.0"])
-  s.add_dependency("sass", ["~> 3.1.7"])
-  s.add_dependency("compass", ["~> 0.11.3"])
+  s.add_dependency("sass", ["~> 3.2.0.alpha"])
+  s.add_dependency("compass", ["~> 0.12.rc"])
   s.add_dependency("coffee-script", ["~> 2.2.0"])
   s.add_dependency("execjs", ["~> 1.2.7"])
   s.add_dependency("sprockets", ["~> 2.0.3"])
   s.add_dependency("padrino-core", ["~> 0.10.5"])
   s.add_dependency("padrino-helpers", ["~> 0.10.5"])
-  
+
   s.add_dependency("guard", ["~> 0.6.2"])
   s.add_dependency("middleman-livereload", ["~> 0.2.0"])
-  
+
   # Development and test
   s.add_development_dependency("coffee-filter", ["~> 0.1.1"])
   s.add_development_dependency("liquid", ["~> 2.2.0"])
